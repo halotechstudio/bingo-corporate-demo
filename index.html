@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bingo Corporate Demo</title>
+<meta name="description" content="Clickable simulation of Bingo Corporate by HALO Studio: manager, employee and driver apps with the owner console.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Urbanist:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,500,1,0&display=block" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter></defs></svg>
+
+<header class="top">
+  <div class="brand"><span id="mk"></span><span class="wm">bingo</span><span class="chip g">CORPORATE</span></div>
+  <nav class="views" id="views"></nav>
+  <div class="ctrl" id="ctrl"></div>
+</header>
+
+<div id="guide"></div>
+<main id="stage"></main>
+<input type="file" id="adFile" accept="image/*" hidden>
+
+<script src="js/core.js"></script>
+<script src="js/ui.js"></script>
+<script src="js/manager.js"></script>
+<script src="js/employee.js"></script>
+<script src="js/driver.js"></script>
+<script src="js/dashboard.js"></script>
+<script src="js/onboarding.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
